@@ -1,0 +1,51 @@
+<div className="header__sideBar">
+        <img
+          className="activator"
+          id="activator"
+          src="https://s2.svgbox.net/loaders.svg?ic=grid"
+          alt=""
+        ></img>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">
+                <img
+                  src="https://s2.svgbox.net/hero-outline.svg?ic=user-circle"
+                  alt=""
+                ></img>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="https://s2.svgbox.net/hero-outline.svg?ic=chat"
+                  alt=""
+                ></img>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="https://s2.svgbox.net/hero-outline.svg?ic=shopping-cart"
+                  alt=""
+                ></img>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+
+
+.header__sideBar {
+  display: flex;
+  color: black;
+  .activator {
+    padding: 1em;
+    border-radius: 100%;
+    cursor: pointer;
+    .&::hover {
+      background: black;
+    }
+  }
+}
